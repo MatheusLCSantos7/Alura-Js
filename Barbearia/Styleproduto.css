@@ -49,6 +49,11 @@ nav
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;    
+    border-color: black;
+    border-width: 2px;    /* assim q se estilisa a borda*/
+    border-style: solid; /*3 opções de estilo =dashed,dotted,*/
+    /* mas eu também posso colocar assim simplificado = border: 2px solid black; */
+    border-radius: 10px; /*arredondando as bordas*/
 }
 
 .produtos h2 
