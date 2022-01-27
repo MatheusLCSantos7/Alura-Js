@@ -24,6 +24,13 @@ nav a
     font-size: 22px;
     text-decoration: none;
 }
+
+nav a:hover 
+{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 nav 
 {
     position: absolute;
@@ -56,6 +63,24 @@ nav
     border-radius: 10px; /*arredondando as bordas*/
 }
 
+.produtos li:hover
+{
+    box-shadow: 4px 4px 10px #fffb00;
+    backdrop-filter: blur(1px);
+    border-color: #c78c19;
+}
+
+.produtos li:hover h2 
+{
+    font-size: 35px;
+}
+.produtos li:active
+{
+    box-shadow: 4px 4px 10px #00ffb3;
+    backdrop-filter: blur(1px);
+    border-color: #00ff22;
+}
+
 .produtos h2 
 {
     font-size: 30px;
@@ -72,4 +97,21 @@ nav
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #CCCCCC;
+    /* como colocar img por url = background: url("logobarber.png"); */
+
+}
+.cr {
+
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: black;
+    border: 10px;
+    
 }
